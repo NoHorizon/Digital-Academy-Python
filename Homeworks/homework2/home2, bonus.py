@@ -15,6 +15,3 @@ print("===== Metodi #2 =====")
 
 for name, price in products:
     print(f"{name}:\n {price}")
-
-
-#TESTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
