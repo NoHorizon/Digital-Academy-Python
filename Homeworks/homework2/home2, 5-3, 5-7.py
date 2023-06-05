@@ -47,7 +47,17 @@ print("=== 5-7 ===")
 
 favorite_fruits = ['banana', 'apple', 'orange']
 
-fruit = 'apple'
-if fruit in favorite_fruits:
-    print(f'You really like {fruit.title()}s')
+if "apple" in favorite_fruits:
+    print("You really like apples!")
 
+if "banana" in favorite_fruits:
+    print("You really like bananas!")
+
+if "orange" in favorite_fruits:
+    print("You really like oranges!")
+
+if "mango" in favorite_fruits:
+    print("You really like mangoes!")
+
+if "grape" in favorite_fruits:
+    print("You really like grapes!")
