@@ -4,7 +4,7 @@ country = 'Georgia'
 
 print("Is country == 'Georgia'? I predict True.")
 print(country == 'Georgia')
-print("Is country == 'Georgia'? I predict True.")
+print("Is country == 'Georgia'? I predict False.")
 print(country == 'Turkey')
 
 # 5.2
@@ -14,7 +14,7 @@ weather = 'GOOD'
 
 print("Is weather == 'good'? I predict True.")
 print(weather.lower() == 'good')
-print("Is weather != 'good'? I predict True.")
+print("Is weather != 'good'? I predict False.")
 print(weather.lower() != 'good')  # !=
 
 print("=== ===")
@@ -22,7 +22,7 @@ print("=== ===")
 
 lucky_number = 7
 
-print("Is lucky number > 10? I predict True.")
+print("Is lucky number > 10? I predict False.")
 print(lucky_number > 10)
 print("Is lucky number < 10? I predict True.")
 print(lucky_number < 10)
@@ -31,10 +31,10 @@ print(lucky_number >= 7)
 print("Is lucky number <= 7? I predict True.")
 print(lucky_number <= 7)
 
-# OR
+# OR & AND
 print("Is lucky number = 7 or = 5? I predict True.")
 print(lucky_number == 7 or lucky_number == 5)
-print("Is lucky number both 7 and 5? I predict True.")
+print("Is lucky number both 7 and 5? I predict False.")
 print(lucky_number == 7 and lucky_number == 5)
 
 # test list
