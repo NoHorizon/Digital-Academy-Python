@@ -4,8 +4,12 @@
 შემდეგ გამოიტანეთ თითოეული ელემენტის დასახელება და ფასი ცალ ცალკე ხაზზე (for ციკლი უნდა გამოიყენოთ)
 """
 
-products = [['car', 12500], ['computer', 3500],
-            ['toy', 80], ['pen', 2], ['tv', 1100]]
+products = [
+    ['car', 12500],
+    ['computer', 3500],
+    ['toy', 80], ['pen', 2],
+    ['tv', 1100]
+    ]
 
 for product in products:
     print(f"{product[0]}: \n {product[1]}")
