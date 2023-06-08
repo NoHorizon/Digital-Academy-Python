@@ -23,7 +23,7 @@ print(upper_fruits)
 prime_numbers = []
 num = 2
 
-while len(prime_numbers) < 1000:
+while len(prime_numbers) <= 1000:
     is_prime = True
     for i in range(2, int(num ** 0.5) + 1):
         if num % i == 0:
