@@ -1,37 +1,37 @@
-# print(5 * "#", "7-8", 5 * "#")
-# print("")
+print(5 * "#", "7-8", 5 * "#")
+print("")
 
-# sandwich_orders = ["tuna", "chicken", "turkey", "ham"]
-# finished_sandwiches = []
+sandwich_orders = ["tuna", "chicken", "turkey", "ham"]
+finished_sandwiches = []
 
-# for sandwich in sandwich_orders:
-#     print("I made your", sandwich, "sandwich.")
-#     finished_sandwiches.append(sandwich)
+for sandwich in sandwich_orders:
+    print("I made your", sandwich, "sandwich.")
+    finished_sandwiches.append(sandwich)
 
-# print("\nFinished sandwiches:")
-# for sandwich in finished_sandwiches:
-#     print(f"made from {sandwich}")
+print("\nFinished sandwiches:")
+for sandwich in finished_sandwiches:
+    print(f"made from {sandwich}")
 
 
-# print("")
-# print(5 * "#", "7-9", 5 * "#")
-# print("")
+print("")
+print(5 * "#", "7-9", 5 * "#")
+print("")
 
-# sandwich_orders = ["tuna", "pastrami", "chicken", "pastrami", "turkey", "pastrami", "ham"]
-# finished_sandwiches = []
+sandwich_orders = ["tuna", "pastrami", "chicken", "pastrami", "turkey", "pastrami", "ham"]
+finished_sandwiches = []
 
-# print("Deli has run out of pastrami.")
+print("Deli has run out of pastrami.")
 
-# while "pastrami" in sandwich_orders:
-#     sandwich_orders.remove("pastrami")
+while "pastrami" in sandwich_orders:
+    sandwich_orders.remove("pastrami")
 
-# for sandwich in sandwich_orders:
-#     print("I made your", sandwich, "sandwich.")
-#     finished_sandwiches.append(sandwich)
+for sandwich in sandwich_orders:
+    print("I made your", sandwich, "sandwich.")
+    finished_sandwiches.append(sandwich)
 
-# print("\nFinished sandwiches:")
-# for sandwich in finished_sandwiches:
-#     print(sandwich)
+print("\nFinished sandwiches:")
+for sandwich in finished_sandwiches:
+    print(sandwich)
 
 print("")
 print(5 * "#", "7-10", 5 * "#")
