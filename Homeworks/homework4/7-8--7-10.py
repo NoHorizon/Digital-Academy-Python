@@ -17,7 +17,8 @@ print("")
 print(5 * "#", "7-9", 5 * "#")
 print("")
 
-sandwich_orders = ["tuna", "pastrami", "chicken", "pastrami", "turkey", "pastrami", "ham"]
+sandwich_orders = ["tuna", "pastrami", "chicken",
+                   "pastrami", "turkey", "pastrami", "ham"]
 finished_sandwiches = []
 
 print("Deli has run out of pastrami.")
@@ -38,9 +39,9 @@ print(5 * "#", "7-10", 5 * "#")
 print("")
 
 poll_results = {}
-num_users = 2
+number_of_users = 2
 
-for i in range(num_users):
+for i in range(number_of_users):
     user_name = input(f"User {i+1}, please enter your name: ")
     dream_destination = input(f"{user_name}, which place you want to visit? ")
 
@@ -49,3 +50,6 @@ for i in range(num_users):
 print("\nPoll Results:")
 for user_name, dream_destination in poll_results.items():
     print(f"{user_name} would like to visit {dream_destination}.")
+
+
+###
