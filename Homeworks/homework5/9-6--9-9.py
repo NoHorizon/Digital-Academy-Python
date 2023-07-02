@@ -104,3 +104,7 @@ class Admin(User):
 admin = Admin("John", "Doe", "johndoe", "johndoe@example.com")
 
 admin.privileges.show_privileges()
+
+print("9-9")
+
+# -----
