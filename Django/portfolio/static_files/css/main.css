@@ -1,0 +1,17 @@
+/* #green {
+  color: green;
+}
+
+#profile_pic {
+  width: 600px;
+  height: 500px;
+} */
+
+/* "გლობალური" არ მუშაობს და id ან class მუშაობს.. */
+body {
+  background-color: red;
+}
+
+#body {
+  background-color: green;
+}
