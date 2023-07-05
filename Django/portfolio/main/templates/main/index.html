@@ -1,10 +1,10 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    {% load static %}
     <link
       rel="stylesheet"
       type="text/css"
@@ -22,31 +22,118 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-          <div class="card card-body"></div>
+          <div class="card card-body h-100 border-info" id="profile-wrapper">
+            <img id="profile-pic" src="{% static 'images/me.jpg' %}" alt="me" />
+            <hr />
+            <h4>Hi, I'm David</h4>
+            <p>I love coding, going to become Full Stack Developer</p>
+          </div>
         </div>
 
         <div class="col-md-9">
-          <div class="card card-body"></div>
+          <div class="card card-body h-100 border-info">
+            <h4>Finishing Python Course in Academy of Digital Industries</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              vel quia id repudiandae quasi dignissimos, maxime eveniet tempore
+              deserunt.
+            </p>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+              repellendus natus cumque nobis hic earum ratione accusamus illum
+              distinctio quae!
+            </p>
+
+            <p>Lorem ipsum dolor sit amet.</p>
+
+            <ul class="social-links">
+              <li>
+                <img
+                  class="social"
+                  src="{% static 'images/facebook.png' %}"
+                  alt="facebook.png"
+                />
+              </li>
+              <li>
+                <img
+                  class="social"
+                  src="{% static 'images/linkedin.png' %}"
+                  alt="linkedin.png"
+                />
+              </li>
+              <li>
+                <img
+                  class="social"
+                  src="{% static 'images/twitter.png' %}"
+                  alt="twitter.png"
+                />
+              </li>
+              <li>
+                <img
+                  class="social"
+                  src="{% static 'images/youtube.png' %}"
+                  alt="youtube.png"
+                />
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <br />
       <div class="row">
         <div class="col-md-6">
-          <div class="card card-body"></div>
+          <div class="card card-body h-100">
+            <h6>My Experience</h6>
+            <hr />
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+              quasi consequuntur minus ipsam deleniti fugit exercitationem,
+              rerum dicta! Doloremque, voluptate.
+            </p>
+          </div>
         </div>
 
         <div class="col-md-6">
-          <div class="card card-body"></div>
+          <div class="card card-body h-100">
+            <h6>What I know</h6>
+            <hr />
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+              quasi consequuntur minus ipsam deleniti fugit exercitationem,
+              rerum dicta! Doloremque, voluptate.
+            </p>
+          </div>
         </div>
       </div>
       <br />
       <div class="row">
         <div class="col-md-6">
-          <div class="card card-body"></div>
+          <div class="card card-body h-100">
+            <h6>My Plans</h6>
+            <hr />
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+              quasi consequuntur minus ipsam deleniti fugit exercitationem,
+              rerum dicta! Doloremque, voluptate.
+            </p>
+          </div>
         </div>
 
         <div class="col-md-6">
-          <div class="card card-body"></div>
+          <div class="card card-body h-100">
+            <h6>Mentor</h6>
+            <hr />
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+              quasi consequuntur minus ipsam deleniti fugit exercitationem,
+              rerum dicta! Doloremque, voluptate.
+            </p>
+          </div>
         </div>
       </div>
       <br />
